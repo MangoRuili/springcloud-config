@@ -5,11 +5,11 @@ spring:
 ---
 spring:
   profiles: dev # 开发环境
-    application: 
-      name: springcloud-config-crscd-dev
+  application:
+    name: springcloud-config-crscd-dev
 ---
 spring:
   profiles: test # 测试环境
-    application:
-      name: springcloud-config-crscd-test
+  application:
+    name: springcloud-config-crscd-test
 
